@@ -1,0 +1,26 @@
+
+
+
+
+.navbar-header{
+    padding-left:  15px;
+      padding-right:  15px;
+      border-right: 1px solid black;
+     
+}
+
+
+.nav  li{
+        padding-left:  25px;
+      padding-right:  25px;
+       border-right: 1px solid black;
+}
+
+.navbar {
+   
+     background-color: #204d74;
+   
+    
+}
+
+.nav a{color:white}
