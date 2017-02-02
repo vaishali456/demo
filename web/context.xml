@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--For Internal Developing Purpose-->
+<Context path="/">
+    <Resource 
+        auth="Container" 
+        driverClassName="com.mysql.jdbc.Driver" 
+        logAbandoned="true" 
+        maxActive="8" 
+        name="jdbc/webservice" 
+        password="root" 
+        removeAbandoned="true" 
+        removeAbandonedTimeout="60" 
+        type="javax.sql.DataSource" 
+        url="jdbc:mysql://127.0.0.1:3306/refque_refque" 
+        username="root" 
+        validationQuery="SELECT 1">
+    </Resource>
+</Context>
+
+<!--For Hostting Configuration-->
+
+<!--<Context path="/DOOFNet">
+    <Resource 
+        auth="Container" 
+        driverClassName="com.mysql.jdbc.Driver" 
+        logAbandoned="true" 
+        maxActive="8" 
+        name="jdbc/webservice" 
+        password="refque123" 
+        removeAbandoned="true" 
+        removeAbandonedTimeout="60" 
+        type="javax.sql.DataSource" 
+        url="jdbc:mysql://127.0.0.1:3306/refque_refque" 
+        username="reft_test" 
+        validationQuery="SELECT 1">
+    </Resource>
+</Context>-->
